@@ -28,7 +28,7 @@
   </nav>
 
   <header class="container-fluid bg-image">
-    <div class="row justify-content-around py-lg-5 py-3">
+    <div class="row justify-content-around py-lg-5 py-3 text-light">
       <div class="col-lg-4 col-10">
         <div class="row">
           <div class="col-12">
@@ -70,7 +70,7 @@
 
   <main class="container-fluid">
 
-    <div class="row py-lg-5 py-3 bg-default relative">
+    <div class="row py-lg-5 py-3 bg-default relative text-light">
 
       <div class="col-lg-4 offset-lg-1 col-10 offset-1 py-3 order-lg-1 order-2">
         <h2>Astro stellar space stars</h2>
@@ -79,9 +79,10 @@
           quae voluptate maxime est eveniet placeat similique. Consequatur saepe minus cumque est sequi molestiae
           delectus suscipit, cupiditate alias!</p>
       </div>
-      <div class="col-lg-5 offset-lg-1 col-10 offset-1 py-3 card spill bg-light text-dark align-middle order-lg-2 order-1">
+      <div
+        class="col-lg-5 offset-lg-1 col-10 offset-1 py-3 card spill bg-light text-dark align-middle order-lg-2 order-1">
         <div class="row my-4">
-          <div class="col-1">
+          <div class="col-1 text-dark">
             <i class="fa fa-space-shuttle" aria-hidden="true"></i>
           </div>
           <div class="col-11 py-1">
@@ -92,7 +93,7 @@
           </div>
         </div>
         <div class="row my-4">
-          <div class="col-1">
+          <div class="col-1 text-dark">
             <i class="fa fa-star" aria-hidden="true"></i>
           </div>
           <div class="col-11 py-1">
@@ -103,7 +104,7 @@
           </div>
         </div>
         <div class="row my-4">
-          <div class="col-1">
+          <div class="col-1 text-dark">
             <i class="fa fa-sun-o" aria-hidden="true"></i>
           </div>
           <div class="col-11 py-1">
@@ -114,7 +115,7 @@
           </div>
         </div>
         <div class="row my-4">
-          <div class="col-1">
+          <div class="col-1 text-dark">
             <i class="fa fa-reddit-alien" aria-hidden="true"></i>
           </div>
           <div class="col-11 py-1">
@@ -125,7 +126,7 @@
           </div>
         </div>
         <div class="row my-4">
-          <div class="col-1">
+          <div class="col-1 text-dark">
             <i class="fa fa-tachometer" aria-hidden="true"></i>
           </div>
           <div class="col-11 py-1">
@@ -140,36 +141,59 @@
 
     </div>
 
-    <div class="row py-lg-5 py-3 bg-dark align-items-center justify-content-around">
+    <div class="row py-lg-5 py-3 bg-dark align-items-center justify-content-around text-light">
 
-      <div class="col-10 offset-1 col-lg-3 py-3">
+      <div class="col-10 offset-lg-1 col-lg-3 py-3">
         <img src="img-stars-spiral-arm.jpg" class="img-fluid" alt="Responsive image">
       </div>
-      <div class="col-10 offset-1 col-lg-6 py-3">
+      <div class="col-10 offset-lg-1 col-lg-6 py-3">
         <h2>
-          
+          <i class="fa fa-shield text-primary" aria-hidden="true"></i> Defend the galaxy from evil!
         </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum explicabo cupiditate numquam architecto maiores temporibus, nisi nemo culpa laudantium neque itaque voluptates. Assumenda velit laudantium sequi voluptates voluptatibus consectetur!</p>
+        <h2>Ally yourself with the heavanly bodies</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe harum explicabo cupiditate numquam architecto
+          maiores temporibus, nisi nemo culpa laudantium neque itaque voluptates. Assumenda velit laudantium sequi
+          voluptates voluptatibus consectetur!</p>
+        <div class=" d-flex flex-row-reverse">
+          <button type="button" class="btn btn-primary">Inquire</button>
+        </div>
       </div>
 
     </div>
-    <div class="row py-lg-5 py-3 bg-default">
-
-      <div class="col">
-
+    <div class="row py-lg-5 py-3 bg-secondary justify-content-around align-items-center text-center text-dark">
+      <div class="col-10 col-lg-3 order-lg-1 order-2 card bg-light py-3 my-3">
+        <i class="fa fa-quote-left text-left" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate suscipit et, eveniet repudiandae
+          debitis alias similique hic eius rerum beatae iure dolorum inventore accusamus totam sint, error, quia
+          voluptatibus?</p>
+        <p class="text-success">By:<br>Celestial beings of immesurable power</p>
       </div>
-      <div class="col">
-
+      <div class="col-10 col-lg-3 order-lg-2 order-1 card bg-success py-3 my-3 shadow-lg">
+        <h2 class="text-light">
+          <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+          <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+          <i class="fa fa-reddit-alien" aria-hidden="true"></i>
+        </h2>
+        <i class="fa fa-quote-left text-left" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate suscipit et, eveniet repudiandae
+          debitis alias similique hic eius rerum beatae iure dolorum inventore accusamus totam sint, error, quia
+          voluptatibus?</p>
+        <p class="text-light">By:<br>Celestial beings of immesurable power</p>
       </div>
-      <div class="col">
-
+      <div class="col-10 col-lg-3 order-lg-3 order-3 card bg-light py-3 my-3">
+        <i class="fa fa-quote-left text-left" aria-hidden="true"></i>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate suscipit et, eveniet repudiandae
+          debitis alias similique hic eius rerum beatae iure dolorum inventore accusamus totam sint, error, quia
+          voluptatibus?</p>
+        <p class="text-success">By:<br>Celestial beings of immesurable power</p>
       </div>
 
     </div>
-    <div class="row py-lg-5 py-3 bg-dark">
+    <div class="row py-5 bg-dark text-light">
 
-      <div class="col">
-
+      <div class="col offset-1 py-lg-5 py-4 my-lg-5 my-4">
+        <h2><b>Witness the power of celestial might!</b></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, hic ducimus nobis adipisci optio corrupti ea velit cumque magni omnis. Eligendi maxime minima, cum perferendis quam consectetur. Consectetur, explicabo dolor?</p>
       </div>
 
     </div>
@@ -177,8 +201,10 @@
   </main>
 
   <footer class="container-fluid">
-    <div class="row py-lg-5 py-3 bg-primary">
-
+    <div class="row py-5 bg-primary justify-content-center text-center align-items-center text-dark">
+      <div class="col-10">
+      <p> You've come too far to turn back now lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
     </div>
   </footer>
 
