@@ -1,0 +1,25 @@
+.custom-font{
+  font-family: 'Vesper Libre', serif;
+}
+
+.bg-image{
+background-image: url(img-stars-background.jpg);
+background-size: auto;
+}
+
+
+@media only screen and (max-width: 991px){
+  .hide-on-mobile{
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px){
+  .relative{
+    position: relative;
+  }
+  .spill{
+    position: absolute;
+    bottom: 0;
+    transform: translate(100%, 20%);
+  }
+}
